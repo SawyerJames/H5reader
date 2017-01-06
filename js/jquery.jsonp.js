@@ -6,7 +6,7 @@
  * Copyright (c) 2012 Julian Aubourg
  *
  * This document is licensed as free software under the terms of the
- * MIT License: http://www.opensource.org/licenses/mit-license.php
+ * MIT License: //www.opensource.org/licenses/mit-license.php
  */
 ( function( $ ) {
 

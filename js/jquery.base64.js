@@ -9,10 +9,10 @@
 
 /*
  * Original code (c) 2010 Nick Galbreath
- * http://code.google.com/p/stringencoders/source/browse/#svn/trunk/javascript
+ * //code.google.com/p/stringencoders/source/browse/#svn/trunk/javascript
  *
  * jQuery port (c) 2010 Carlo Zottmann
- * http://github.com/carlo/jquery-base64
+ * //github.com/carlo/jquery-base64
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
