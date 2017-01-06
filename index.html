@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="author" content="sawyer">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Html reader</title>
+</head>
+<body>
+	<div id="root" class="container">
+		<!-- awake meau -->
+		<div id="awake_meau">
+			<div class="awake-meau" id="awake_meau"></div>
+		</div>
+		<!-- top nav -->
+		<div id="top_nav" class="m-top-nav" style="display: none;">
+			<div class="top-nav-icon"></div>
+			<div class="top-nav-text">返回列表</div>
+		</div> 	
+		<!-- content -->
+		<div id="fiction_chapter_title"></div>
+		<div id="fiction_container" class="m-read-content"></div>
+		<div id="fiction_bottom_bar" class="m-bottom-bar">
+			<ul class="u-bottom-bar">
+				<li id="prev_bar">上一章</li>
+				<li id="next_bar">下一章</li>
+			</ul>
+		</div>
+		<!-- bottom nav -->
+		<div id="bottom_nav" class="m-bottom-nav-contain" style="display: none;">
+			<div class="bottom-nav" id="u_nav_catalog">
+				<div class="u-nav-button">目录</div>
+				<div class="nav-catalog-icon"></div>
+			</div>
+			<div class="bottom-nav" id="u_nav_font">
+				<div class="u-nav-button">字体</div>
+				<div class="nav-font-icon"></div>
+			</div>
+			<div class="bottom-nav" id="u_nav_night">
+				<div class="u-nav-button">夜间</div>
+				<div class="nav-night-icon"></div>
+			</div>
+			<br class="clearfloat" />	
+		</div>
+		<!-- bottom nav awakeFont-->
+		<div class="awakeFont-bk awake-font" style="display: none;"></div>
+		<div class="awakeFont-contain awake-font" style="display: none;">
+			<div class="m-font-child">
+				<span>字号:</span>
+				<button id="big_font" class="fontSize">大</button>
+				<button id="small_font" class="fontSize">小</button>
+			</div>
+			<div class="m-font-child m-font-child2">
+				<span class="movefont">背景:</span>
+				<div class="radius-outside1">
+					<div class="radius-inside1"></div>
+				</div>
+				<div class="radius-outside2">
+					<div class="radius-inside2"></div>
+				</div>
+				<div class="radius-outside3">
+					<div class="radius-inside3"></div>
+				</div>
+				<div class="radius-outside4">
+					<div class="radius-inside4"></div>
+				</div>
+				<div class="radius-outside5">
+					<div class="radius-inside5"></div>
+				</div>
+				<div class="radius-outside6">
+					<div class="radius-inside6"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- script -->
+	<script src="lib/zepto.min.js"></script>
+	<script>
+		window.jQuery = $;
+	</script>
+	<script src="js/controll.js"></script>
+	<script src="js/jquery.base64.js"></script>
+	<script src="js/jquery.jsonp.js"></script>
+
+</body>
+</html>
